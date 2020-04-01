@@ -1,0 +1,88 @@
+//mixin que le quita el diseño a las listas
+@mixin unStyleList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112, 112, 112);
+}
+
+// deseño para celular hasta un maximo de 768px
+@media only screen and (max-width: 768px) {
+//diseño del navbar para celular
+  nav.navbar ul{
+        @include unStyleList
+    }
+
+    nav.navbar ul li {
+        float: left;
+    }
+
+    nav.navbar ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav.navbar ul li a:hover {
+        background-color: rgb(124, 124, 124);
+    }
+}
+
+// diseño para tablets, desde un minimo de 768px
+@media only screen and (min-width: 768px) {
+//diseño del navbar para tablets
+  nav.navbar ul{
+        @include unStyleList
+    }
+
+    nav.navbar ul li {
+        float: left;
+    }
+
+    nav.navbar ul li.contactenos{
+        float: right;
+    }
+
+    nav.navbar ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav.navbar ul li a:hover {
+        background-color: rgb(124, 124, 124);
+    }
+} 
+
+// diseño para pc y laptops, desde un minimo de 992px
+@media only screen and (min-width: 992px) {
+//diseño del navbar para pc y laptops
+    nav.navbar ul{
+        @include unStyleList
+    }
+
+    nav.navbar ul li {
+        float: left;
+    }
+
+    nav.navbar ul li.contactenos{
+        float: right;
+    }
+
+    nav.navbar ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav.navbar ul li a:hover {
+        background-color: rgb(124, 124, 124);
+    }
+}

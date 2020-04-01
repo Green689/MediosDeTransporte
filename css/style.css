@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+  nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+  }
+
+  nav.navbar ul li {
+    float: left;
+  }
+
+  nav.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav.navbar ul li a:hover {
+    background-color: #7c7c7c;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+  }
+
+  nav.navbar ul li {
+    float: left;
+  }
+
+  nav.navbar ul li.contactenos {
+    float: right;
+  }
+
+  nav.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav.navbar ul li a:hover {
+    background-color: #7c7c7c;
+  }
+}
+@media only screen and (min-width: 992px) {
+  nav.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #707070;
+  }
+
+  nav.navbar ul li {
+    float: left;
+  }
+
+  nav.navbar ul li.contactenos {
+    float: right;
+  }
+
+  nav.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  nav.navbar ul li a:hover {
+    background-color: #7c7c7c;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
